@@ -24,8 +24,44 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-twitter:before {
+  content: "\e900";
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts2/icomoon.eot?jb8hwm');
+  src:  url('../fonts2/icomoon.eot?jb8hwm#iefix') format('embedded-opentype'),
+    url('../fonts2/icomoon.ttf?jb8hwm') format('truetype'),
+    url('../fonts2/icomoon.woff?jb8hwm') format('woff'),
+    url('../fonts2/icomoon.svg?jb8hwm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-brand:before {
+  content: "\e900";
+}
+.icon-social:before {
   content: "\e900";
 }
 
@@ -34,6 +70,59 @@
 .icon-instagram:before {
   content: "\e900";
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts3/icomoon.eot?n2rzm7');
+  src:  url('../fonts3/icomoon.eot?n2rzm7#iefix') format('embedded-opentype'),
+    url('../fonts3/icomoon.ttf?n2rzm7') format('truetype'),
+    url('../fonts3/icomoon.woff?n2rzm7') format('woff'),
+    url('../fonts3/icomoon.svg?n2rzm7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-social:before {
+  content: "\e900";
+}
+
+.icon-twitter{
+  color: white;
+  font-size: 30px;
+}
+
+.icon-facebook{
+  color: white;
+  font-size: 30px;
+}
+
+.icon-instagram{
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
 
 
 
@@ -51,7 +140,7 @@ body{
 }
 
 .hero{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   margin: 20px;
   padding: 10px 5px;
@@ -63,14 +152,16 @@ body{
   margin-left: 30px;
   /* width: 50%; */
 }
-.description{
+h1{
   /* width: 50%; */
   font-family: Poppins;
   font-size: 40px;
   text-transform: capitalize;
+  color: white;
 }
 .other-description{
  font-family: 'Open Sans';
+ color: white;
 }
 
 .button{
@@ -80,4 +171,24 @@ body{
   background: white;
   color:hsl(257, 40%, 49%);
   
+}
+
+.footer{
+  /* border: 3px solid red; */
+  height: 50px;
+  margin:20px ;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.facebook{
+  margin-right: 10px;
+}
+
+.twitter{
+  margin-right: 10px;
+}
+
+.instagram{
+  margin-right: 10px;
 }
