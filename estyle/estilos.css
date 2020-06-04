@@ -148,6 +148,8 @@ body{
   flex-wrap: wrap;
 }
 
+
+
 .container-description{
   margin-left: 30px;
   /* width: 50%; */
@@ -163,6 +165,7 @@ h1{
  font-family: 'Open Sans';
  color: white;
 }
+
 
 .button{
   width: 150px;
@@ -191,4 +194,50 @@ h1{
 
 .instagram{
   margin-right: 10px;
+}
+@media screen and (max-width:1440px){
+
+
+}
+@media screen and (max-width:375px){
+  .hero{
+    width: auto;
+  }
+  .img-header{
+    width: 100px;
+  }
+  .hero{
+    /* display: block; */
+    width: auto;
+    
+  }
+
+   .container-description{ 
+    justify-content: center;
+  } 
+
+  
+  .img-hero{
+    max-width: 100%;
+  }
+
+  h1{
+    justify-content: center;
+    font-size: 1.2em;
+  }
+
+  .other-description{
+    justify-content: center;
+  }
+
+  .button{
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+.footer{
+  justify-content: center;
+}
+
+  
 }
